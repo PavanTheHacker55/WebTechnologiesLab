@@ -34,8 +34,8 @@
 				<tr>
 				<td>Gender</td>
 					<td>
-						<input type="checkbox" name="textnames" size="30">Male
-						<input type="checkbox" name="textnames" size="30">Female
+						<input type="radio" name="textnames" size="30">Male
+						<input type="radio" name="textnames" size="30">Female
 					</td>
 				</tr>
 				<tr>
@@ -54,6 +54,10 @@
 				<td>
 				<select name="course">
 					<option value="-1">Select...</option>
+					<option value="Nalanda">NALANDA</option>
+					<option value="UP">UP</option>
+					<option value="Goa">GOA</option>
+					<option value="Patna">PATNA</option>
 				</select>
 				</td>
 				</tr>
@@ -62,7 +66,11 @@
 				<td>State</td>
 				<td>
 				<select name="course">
-					<option value="-1">Select...</option>
+					<option value="-1" selected>select..</option>
+					<option value="New Delhi">NEW DELHI</option>
+					<option value="Mumbai">MUMBAI</option>
+					<option value="Goa">GOA</option>
+					<option value="Bihar">BIHAR</option>
 				</select>
 				</td>
 				</tr>
@@ -96,7 +104,7 @@
 						<input type="reset">
 					</td>
 					<td>
-						<input type="submit" name="Submit Form" size="30">
+						<td colspan="2"><input type="submit" value="Submit Form" /></td>
 					</td>
 				</tr>
 			</table>
